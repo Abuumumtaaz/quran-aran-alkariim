@@ -16,6 +16,9 @@ body {
 .cursor{
     cursor: pointer;
 }
+.cursor2{
+    margin-left: 6px;
+}
 .active {
     color: yellow !important;
 }
