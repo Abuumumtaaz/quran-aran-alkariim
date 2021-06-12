@@ -6,8 +6,8 @@ const Reciters = () => {
         <h1 className="text-center fs-5 fw-bold">Reciters</h1> <hr/>
         <ul className="text-start list-group">
             <div>
-                <li className="list-group-item bg-transparent border-0 text-light py-0  cursor fs-5 ps-0">
-                <FaUserCircle className="fs-3 me-3" />{'  '}
+                <li className="list-group-item bg-transparent border-0 text-light py-0  cursor fs-6 ps-0">
+                <FaUserCircle className="fs-6 me-3" />{'  '}
                      <span className="fs-6 ">Abdil basit</span>
                 </li>
                 <hr/>
