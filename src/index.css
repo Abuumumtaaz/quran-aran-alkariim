@@ -11,5 +11,11 @@ body {
 }
 .scroll {
     height: 100%;
-    outline: none;
+    overflow: auto;
+}
+.cursor{
+    cursor: pointer;
+}
+.active {
+    color: yellow !important;
 }
