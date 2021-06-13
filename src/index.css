@@ -16,6 +16,10 @@ body {
 .cursor{
     cursor: pointer;
 }
+.cursorr:hover {
+    color: yellow ;
+}
+
 .cursor2{
     margin-left: 6px;
 }
