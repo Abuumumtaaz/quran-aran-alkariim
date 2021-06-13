@@ -1,6 +1,10 @@
 import ReactPlayer from "react-player";
 
 const Player = ({chapterDetils, reciterDetils}) => {
+
+const audioLink = (reciter, number) => {
+return reciter + '/' + ('00' + number).slice(-3) + '.mp3'
+     }
     return (
         <div className="min-vh-100 shadow-lg p-3 bg-red">
         <h1 className="text-center fs-5 fw-bold">Player</h1> <hr/>
@@ -35,11 +39,10 @@ const Player = ({chapterDetils, reciterDetils}) => {
                  </li>
                  <hr/>
  
-                 <ReactPlayer url={
-                      audioLink(reciterDetils.server.chapterDetils.id)
-                 }  
+                 <ReactPlayer
+                  url={audioLink(reciterDetils.Server,   chapterDetils.id)}  
                  playing={true} controls={true} 
-                 width='100%' height='60%' />
+                 width='100%' height='60px' />
              </div>
          </ul>
        ) : (
